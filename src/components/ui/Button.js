@@ -9,6 +9,7 @@ const Button = (props) => {
         {
           "pointer-events-none opacity-50": disabled,
           "bg-[#473BF0] text-white": color === "purple",
+          "bg-[#473BF0] text-white": color === "lightpurple",
           "border border-black bg-white text-black": color === "white",
         },
         className
